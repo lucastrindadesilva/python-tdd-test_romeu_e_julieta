@@ -19,9 +19,9 @@ class RomeuEJulieta():
         if self.romeu() is True and self.julieta() is True:
             return "romeu e julieta"
         elif self.julieta() is True:
-            return "julieta"
+            return "goiabada"
         elif self.romeu() is True:
-            return "romeu"
+            return "queijo"
         else:
             return "erro"
 
